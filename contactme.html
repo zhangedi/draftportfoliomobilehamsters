@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L0G4DQ1T9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5L0G4DQ1T9');
+</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/hamsterfavicon.png">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Contact Me</title>
+</head>
+
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li><a href = "index.html" >Home</a></li>
+            <li><a href = "hamstertypes.html">Breeds</a></li>
+            <li><a href = "hamsterhousing.html">Housing</a></li>
+            <li><a href = "hamstercare.html">Care</a></li>
+			<li class="active"><a href = "contactme.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <a class = 'skip' href="#main"> Skip to Main Content</a>
+
+	<h1>Contact Me</h1>
+	<h1>Hamster Types</h1>
+	<h1>Love Hamsters too? Lets talk</h1>
+
+	<section id="overlay">
+		<img src=  "images/lofihamandme.png" alt = "A girl holding a grey hamster. Image." width = "200"/>
+		<hr>
+		<!--Add your code below-->
+		<form action="/practice.html" method="POST">
+		  <h1>Send me a message!</h1>
+		  <label for="name"> Name</label>
+		  <input type = "text" name = "text" id = "name"value = "First Name Last Name">
+		  <label for="email"> Email</label>
+		  <input type = "email" name = "email" id = "email"value = "example@example.com">
+		  <label for="message"> Message</label>
+		  <textarea id = "message" name = "message" rows = "5" cols = "30"></textarea>
+		  <form>
+			<input type="submit" value="Send">
+		  </form>
+		</form>
+	  </section>
+	</body>
+  </html>
