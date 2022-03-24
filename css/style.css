@@ -187,6 +187,7 @@ body {
   #myImage{
     width: 200px;
     border: none;
+    align-items: 0 auto;
   }
   #myImage:hover{
     box-shadow: none;
