@@ -185,7 +185,7 @@ body {
   }
 
   #myImage{
-    width: 400px;
+    width: 200px;
     border: none;
   }
   #myImage:hover{
@@ -193,7 +193,7 @@ body {
   }
 
   .containerbutton{
-    width: 400px;
+    width: 200px;
     display:grid;
     margin: 0 auto;
   }
