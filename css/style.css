@@ -7,6 +7,16 @@ Google analytics. - got it
 Use flex and grid - got it, need to center display grid
 Special Thing*/
 
+a.skip{
+  background: white;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: left 1s ease-out;
+  z-index: 1;
+  /* Requirement 3 code here*/
+  position: absolute;
+  left: -500px;
+}
 
 body{
     font-family: 'Trebuchet MS', sans-serif;
@@ -198,6 +208,19 @@ body {
     display:grid;
     margin: 0 auto;
   }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+
+  .container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+  }
 
   /* Change styles for span and cancel button on extra small screens */
   @media screen and (min-width: 770px) {
@@ -220,19 +243,6 @@ body {
       vertical-align:top;
    }
 
-   .container{
-     display: flex;
-     flex-wrap: wrap;
-     padding: 5px;
-   }
-
-   .container1{
-     display: grid;
-     grid-template-columns: repeat(5,1fr);
-     justify-items: center;
-     align-items: center;
-     gap: 10px;
-   }
   }
   @media (prefers-reduced-motion: reduce) {
     #logo{
