@@ -1,19 +1,9 @@
-/* Add at least one background image - got it
-Utilize a Google Font - got it
-Add font Awesome icons.  (The footer and/or contact form is a great location.) - got it
-Contact page that uses a form.  (The form doesn't need to work yet) - got it
-Animate one of the images
-Google analytics. - got it
-Use flex and grid - got it, need to center display grid
-Special Thing*/
-
 a.skip{
   background: white;
   padding: 6px;
   -webkit-transition: top 1s ease-out;
   transition: left 1s ease-out;
   z-index: 1;
-  /* Requirement 3 code here*/
   position: absolute;
   left: -500px;
 }
@@ -222,7 +212,6 @@ body {
     gap: 10px;
   }
 
-  /* Change styles for span and cancel button on extra small screens */
   @media screen and (min-width: 770px) {
     form{
       width: 80%;
