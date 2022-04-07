@@ -29,9 +29,29 @@
             <li><a href = "hamsterhousing.html">Housing</a></li>
             <li><a href = "hamstercare.html">Care</a></li>
             <li><a href = "hamsterplay.html">Play</a></li>
-            <li><a href = "contactme.html">Contact Me</a></li>
+            <li><a href = "contactme.html">Contact</a></li>
         </ul>
     </nav>
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<div id = "hamburger">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="topnav">
+  <a href="index.html" class="active">Home</a>
+    <div id="myLinks">
+    <a href="hamstertypes.html">Breeds</a>
+    <a href="hamsterhousing.html">Housing</a>
+    <a href="hamstercare.html">Care</a>
+    <a href="hamsterplay.html">Play</a>
+    <a href="hcontactme.html">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</div>
+
     <a class = 'skip' href="#main"> Skip to Main Content</a>
 
 <h1>Home</h1>
@@ -52,8 +72,26 @@ Because hamsters are normally marketed towards children, many hamster accessorie
 Even though they are small creatures, they still deserve to have a fulfilling life, and as pet owners it is our responsibility to provide that life to them.
 Please use this website to learn more about hamsters and how to properly care for them. I hope this helps you in your research as you learn how to care for your new furry friend!</p>
 
+<p>I learned all this information by doing my own research on hamsters when I first adopted one around 3 years ago. If you are inspired to do your own research on hamsters, I have many 
+    sites, YouTube channels, and other information sources to recommend! If you have a question about hamster care that you would like a direct answer to, you can try hamsterhideout.com. Hamsterhideout.com
+    is an online hamster forum that anyone can post to. There are many experts on hamsterhideout.com that can answer your question! This will be crowd sourced though, so not everyone has the best information. However
+    it is a great resource if you are just looking for a second opinion. There are also many YouTube channels that talk about hamster care or that can show you very positive examples of hamster care.
+    Victoria Rachel is one of the largest hamster channels on YouTube, and she provides many tips on hamster care. Vanilla Ham Ham is also a great hamster channel. Though they do not have as many tutorial type videos, they 
+    take care of their hamster very well and it can serve as inspriation for your own set up. Lastly I would recommend that you AVOID reading hamster care pamphlets from pet stores. Pet stores actually often have inaccurate 
+    care instructions for hamsters, even going as far as to recommending improper care set ups. Your hamster will become part of your family, so do your
+</p>
 </main>
-
+<script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 <footer>Edith Zhang &copy; 2022</footer>
 </body>
 
